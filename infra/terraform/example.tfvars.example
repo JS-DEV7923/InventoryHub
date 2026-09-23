@@ -1,0 +1,8 @@
+aws_region   = "us-east-1"
+environment  = "dev"
+project_name = "inventoryhub"
+db_username  = "inventoryhub"
+db_password  = "replace-with-secure-password"
+vpc_id       = null
+subnet_ids   = []
+enable_notification_lambda = false
