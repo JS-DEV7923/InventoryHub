@@ -1,0 +1,68 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.env
+*.local
+*.secret
+*.secrets
+secrets/
+secret/
+credentials/
+credentials.*
+*.pem
+*.key
+*.crt
+*.p12
+*.jks
+*.keystore
+id_rsa
+id_rsa.pub
+
+# AWS and cloud credentials
+.aws/
+aws-credentials
+aws-config
+
+# Spring Boot local secret overrides
+application-local.properties
+application-local.yml
+application-local.yaml
+application-secret.properties
+application-secret.yml
+application-secret.yaml
+
+# Terraform local state and sensitive variables
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+!*.tfvars.example
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Java and build outputs
+target/
+build/
+out/
+*.class
+*.jar
+*.war
+*.ear
+.gradle/
+
+# Logs
+*.log
+logs/
+
+# IDE and OS files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
